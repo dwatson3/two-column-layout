@@ -1,0 +1,33 @@
+body {
+	background-color: #fff;
+	/*margin: 0;*/
+	/*padding: 0;*/
+}
+
+#container {
+	display: table;
+}
+
+.writer-biography-left-column, .content-right-column {
+	display: table-cell;
+	/*text-align: center;*/
+}
+
+.writer-biography-left-column {
+	border: 5px dotted blue;
+
+	height: 400px;
+	width: 400px;
+}
+
+.writers-image {
+	background-image: url("pexels-photo-348521.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 350px;
+	height: 350px;
+}
+
+.content-right-column {
+	border: 3px solid #000;
+}
