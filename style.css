@@ -75,10 +75,35 @@ li .facebook-icon {
 	background-repeat: no-repeat;
 }
 
+.brand-logo {
+	background-image: url("pexels-photo-camera-resized-small-circle.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	height: 50%;
+	/*object-fit: cover;*/
+	/*border-radius: '50%';*/
+	/*width: ;*/
+
+	bottom: 120px;
+	position: relative;
+
+/*
+	-ms-transform: scale(0.5,0.5);
+	-webkit-transform: scale(0.5,0.5);
+	transform: scale(0.5,0.5);*/
+
+	/*width: 100%;*/
+
+	/*height: auto;*/
+}
+
 
 #container {
 	display: table;
 	padding: 60px 35px 20px 35px;
+	position: relative;
+	top: -220px;
 }
 
 .writer-biography-left-column, .content-right-column {
