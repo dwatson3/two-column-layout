@@ -40,62 +40,79 @@ body {
 	padding: 8px;
 }
 
-.menu_bar a {
-	/*color: #fff;*/
+/*.menu-content-link a:link {
+	color: #afafaf;
 	padding: 10px;
 	text-decoration: none;
 }
 
+.menu-content-link a:visited {
+	color: #c0c2ce;
+}
+
+.menu-content-link a:hover {
+	color: #c0c2ce;
+} 
+
+.menu_bar a:active {
+	color: #afafaf;
+} */
+
 .right {
 	float: right;
-	margin-right: 40px;
+	padding-right: 40px;
 }
 
 h1, h2, h3 {
 	font-family: 'Roboto', sans-serif;
 }
 
-li .twitter-icon {
-	background-image: url("twitter.png");
+li.twitter-icon {
+	background-image: url("./twitter.png");
 	background-position: center;
 	background-repeat: no-repeat;
+	padding-left: 25px;
 }
 
-li .instagram-icon {
+li.instagram-icon {
 	background-image: url("social_media_popular_app_logo_instagram.png");
 	background-position: center;
 	background-repeat: no-repeat;
+	padding-left: 25px;
 }
 
-li .pinterest-icon {
+li.pinterest-icon {
 	background-image: url("social_media_popular_app_logo_pinterest.png");
 	background-position: center;
 	background-repeat: no-repeat;
+	padding-left: 25px;
 }
 
-li .facebook-icon {
-	background-image: url("social_media_popular_app_logo_facebook.png");
+li.facebook-icon {
+	background-image: url("./social_media_popular_app_logo_facebook.png");
 	background-position: center;
 	background-repeat: no-repeat;
+	padding-left: 25px;
 }
 
-.brand-logo {
+
+/*.brand-logo {
 	background-image: url("pexels-photo-camera-resized-small-circle.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	border-radius: 50%;
 	height: 50%;
 
-	bottom: 120px;
+	bottom: 180px;
 	position: relative;
-}
+}*/
 
 
 #container {
 	display: table;
 	padding: 60px 35px 20px 35px;
-	position: relative;
-	top: -220px;
+/*	position: relative;
+	top: -220px;*/
 }
 
 .writer-biography-left-column, .content-right-column {
