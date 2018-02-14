@@ -1,5 +1,6 @@
 body {
 	background-color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
 	/*margin: 0;*/
 	/*padding: 0;*/
 }
@@ -11,6 +12,7 @@ body {
 	border-bottom: 5px #afafaf solid;;
 	border-left: 5px #fff solid;
 
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 24px;
 	font-weight: bold;
 	letter-spacing: 0.1em;
@@ -42,6 +44,12 @@ body {
 	/*color: #fff;*/
 	padding: 10px;
 	text-decoration: none;
+}
+
+li .twitter-icon {
+	background-image: url("twitter.png");
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 #container {
