@@ -4,8 +4,49 @@ body {
 	/*padding: 0;*/
 }
 
+.menu_bar {
+	background-color: #fff;
+	border-top: 5px #afafaf solid;
+	border-right: 5px #fff solid;
+	border-bottom: 5px #afafaf solid;;
+	border-left: 5px #fff solid;
+
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	padding: 8px;
+	text-align: left;
+
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-o-border-radius: 8px;
+	margin: 0 auto;
+	/*width: 0;*/
+
+}
+
+.menu_bar ul {
+	height: auto;
+	list-style-type: none;
+	margin: 0;
+	padding: 8px 0;
+}
+
+.menu_bar li {
+	display: inline;
+	padding: 8px;
+}
+
+.menu_bar a {
+	/*color: #fff;*/
+	padding: 10px;
+	text-decoration: none;
+}
+
 #container {
 	display: table;
+	padding: 60px 35px 20px 35px;
 }
 
 .writer-biography-left-column, .content-right-column {
@@ -14,10 +55,10 @@ body {
 }
 
 .writer-biography-left-column {
-	border: 5px dotted blue;
+	/*border: 5px dotted blue;*/
 
 	height: 400px;
-	width: 400px;
+	width: 700px;
 }
 
 .writers-image {
@@ -29,5 +70,6 @@ body {
 }
 
 .content-right-column {
-	border: 3px solid #000;
+	/*border: 3px solid #000;*/
+	padding-left: 40px;
 }
