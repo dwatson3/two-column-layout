@@ -46,6 +46,11 @@ body {
 	text-decoration: none;
 }
 
+.right {
+	float: right;
+	margin-right: 40px;
+}
+
 li .twitter-icon {
 	background-image: url("twitter.png");
 	background-position: center;
