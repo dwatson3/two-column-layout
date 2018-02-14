@@ -110,6 +110,18 @@ li .facebook-icon {
 	width: 700px;
 }
 
+.island-life-photo {
+	background-image: url("pexels-photo-island-life.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+
+	height: 100%;
+}
+
+.island-life-blogpost {
+	padding-top: 20px;
+}
+
 .writers-image {
 	background-image: url("pexels-photo-348521.jpeg");
 	background-position: center;
