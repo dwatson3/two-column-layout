@@ -52,6 +52,12 @@ li .twitter-icon {
 	background-repeat: no-repeat;
 }
 
+li .instagram-icon {
+	background-image: url("social_media_popular_app_logo_instagram.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
 #container {
 	display: table;
 	padding: 60px 35px 20px 35px;
