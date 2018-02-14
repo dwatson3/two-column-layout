@@ -58,6 +58,13 @@ li .instagram-icon {
 	background-repeat: no-repeat;
 }
 
+li .pinterest-icon {
+	background-image: url("social_media_popular_app_logo_pinterest.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
 #container {
 	display: table;
 	padding: 60px 35px 20px 35px;
