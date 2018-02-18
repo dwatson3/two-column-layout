@@ -11,7 +11,8 @@ body {
 	border-left: 5px #fff solid;
 
 	font-family: 'Roboto', sans-serif;
-	font-size: 24px;
+	/*font-size: 24px;*/
+	font-size: 1.500em;
 	font-weight: bold;
 	letter-spacing: 0.1em;
 	padding: 8px;
@@ -126,6 +127,14 @@ li.facebook-icon {
 
 	height: 400px;
 	width: 700px;
+}
+
+h2 {
+	font-size: 1.375em;
+}
+
+h3 {
+	font-size: 1.125em;
 }
 
 .button-one {
