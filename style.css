@@ -70,28 +70,28 @@ h1, h2, h3 {
 }
 
 li.twitter-icon {
-	background-image: url("./twitter.png");
+	background-image: url("./img/twitter.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	padding-left: 25px;
 }
 
 li.instagram-icon {
-	background-image: url("social_media_popular_app_logo_instagram.png");
+	background-image: url("./img/social_media_popular_app_logo_instagram.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	padding-left: 25px;
 }
 
 li.pinterest-icon {
-	background-image: url("social_media_popular_app_logo_pinterest.png");
+	background-image: url("./img/social_media_popular_app_logo_pinterest.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	padding-left: 25px;
 }
 
 li.facebook-icon {
-	background-image: url("./social_media_popular_app_logo_facebook.png");
+	background-image: url("./img/social_media_popular_app_logo_facebook.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	padding-left: 25px;
@@ -142,7 +142,7 @@ h3 {
 }
 
 .island-life-photo {
-	background-image: url("pexels-photo-island-life.jpeg");
+	background-image: url("./img/pexels-photo-island-life.jpeg");
 	background-position: center;
 	background-repeat: no-repeat;
 
@@ -154,7 +154,7 @@ h3 {
 }
 
 .writers-image {
-	background-image: url("pexels-photo-348521.jpeg");
+	background-image: url("./img/pexels-photo-348521.jpeg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 350px;
