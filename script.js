@@ -1,9 +1,13 @@
 $(function() {
 
 console.log("Hello world!");
-	// var test = document.getElementsByClassName('btn-one');
-	// test.onclick = function() {
-	// 	alert('Clicked');
-	// };
+
+	var btn = document.querySelector('.btn-one');
+		btn.addEventListener('click', function() {
+			// var p = document.createElement('p');
+			// p.innerText = 'This button was clicked!';
+			// document.body.appendChild(p);
+			console.log('This button was clicked!');
+		});
 
 });

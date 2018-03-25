@@ -35,6 +35,7 @@ body {
 
 .menu_bar li {
 	display: inline;
+	letter-spacing: 4px;
 	padding: 8px;
 }
 
@@ -43,7 +44,7 @@ body {
 }
 
 .menu-content-link a:link {
-	color: #afafaf;
+	color: #ddd;
 	padding: 10px;
 	text-decoration: none;
 }
@@ -53,11 +54,11 @@ body {
 }
 
 .menu-content-link a:hover {
-	color: #c0c2ce;
+	color: #ddd;
 } 
 
 .menu_bar a:active {
-	color: #afafaf;
+	color: #ddd;
 } 
 
 .right {
@@ -67,6 +68,7 @@ body {
 
 h1, h2, h3 {
 	font-family: 'Roboto', sans-serif;
+	color: #afafaf;
 }
 
 li.twitter-icon {
@@ -133,12 +135,13 @@ h2 {
 	font-size: 1.375em;
 }
 
-h3 {
-	font-size: 1.125em;
+.article-title {
+	letter-spacing: 2px;
+	text-transform: uppercase;
 }
 
-.button-one {
-	
+h3 {
+	font-size: 1.125em;
 }
 
 .island-life-photo {
@@ -151,6 +154,19 @@ h3 {
 
 .island-life-blogpost {
 	padding-top: 20px;
+	letter-spacing: 1px;
+}
+
+.btn-one {
+	background-color: #afafaf;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 15px;
+	letter-spacing: 2px;
+
+	height: 50px;
+	width: 120px;
 }
 
 .writers-image {
@@ -164,4 +180,13 @@ h3 {
 .content-right-column {
 	/*border: 3px solid #000;*/
 	padding-left: 40px;
+}
+
+.side-title {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.side-subtitle {
+	letter-spacing: 1px;
 }
